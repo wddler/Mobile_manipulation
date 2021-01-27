@@ -1,0 +1,9 @@
+PS C:\Users\***\Documents\Study\Modern_Robotics\Capstone_project\code> & C:/Users/***/Anaconda3/python.exe c:/Users/***/Documents/Study/Modern_Robotics/Capstone_project/code/Final_main.py
+----------------------Best case----------------------
+Calculating reference trajectory with the following parameters:
+Initial cube configuration: x, y, theta 1.0 0.0 0
+Final cube configuration: x, y, theta 0.0 -1.0 -pi/2
+Initial robot configuration is: theta, x, y, arm joints 1-5, wheels 1-4 [0, 0, 0.5, 0, 0, -0.7, 0, 0, 0, 0, 0, 0]
+Reference trajectory is calculated
+Trajectory contains 2330 configurations
+Calculation of controls and next states is done. Files with configurations and twist errors are created
