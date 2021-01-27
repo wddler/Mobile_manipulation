@@ -3,10 +3,13 @@ The final output is a CSV text file that specifies the configurations of the cha
 
 ## Example case 1 
 (click to open YouTube video)
-[![Case 1](https://i9.ytimg.com/vi_webp/bZi-0CXhad0/mqdefault.webp?time=1611751200000&sqp=CKC-xYAG&rs=AOn4CLB-41jZ1AY6e-xHj9KWK_Cg1Hjj-Q)](https://youtu.be/EqtP-pyhdBs)
+
+[![Case 1](https://i9.ytimg.com/vi_webp/bZi-0CXhad0/mqdefault.webp?time=1611751200000&sqp=CKC-xYAG&rs=AOn4CLB-41jZ1AY6e-xHj9KWK_Cg1Hjj-Q)](https://youtu.be/bZi-0CXhad0)
 
 ## Example case 2 
 (click to open YouTube video)
+
+[![Case 2](https://i9.ytimg.com/vi_webp/EqtP-pyhdBs/mqdefault.webp?time=1611751200000&sqp=CKC-xYAG&rs=AOn4CLCLJmz-BZpGKPdG9sW5TDLMGApwCg)](https://youtu.be/EqtP-pyhdBs)
 
 The code consist of the following scripts:
 
@@ -44,8 +47,9 @@ and using a kinematics simulator to produce a "next_states.csv" file for Coppeli
 ## Parameters for three cases:
 Robot configuration: 0.5 meter offset by Y axis and -0.7 rad in arm joint #3 which is 40 degrees along Y axis
 Controller type: Feedworward + PI
-
+```
             Kp      Ki      Cube_initial (x, y, theta)      Cube_final (x, y, theta)
 Best:       1       0.01    1, 0, 0                         0, -1, -pi/2
 Overshoot:  4.5     0.01    1, 0, 0                         0, -1, -pi/2
 newTask:    1       0.01    0, -0.5, 0                      0, 1, pi/2
+```
