@@ -1,6 +1,12 @@
 The software plans a trajectory for the end-effector of the youBot mobile manipulator (a mobile base with four mecanum wheels and a 5R robot arm), performs odometry as the chassis moves, and performs feedback control to drive the youBot to pick up a block at a specified location, carry it to the desired location, and put it down.
 The final output is a CSV text file that specifies the configurations of the chassis and the arm, the angles of the four wheels, and the state of the gripper (open or closed) as a function of time. This specification of the position-controlled youBot can be "played" on the CoppeliaSim simulator to see if the trajectory succeeds in solving the task.
 
+Dependencies:
+* Modern Robotics Library (https://github.com/NxRLab/ModernRobotics)
+* NumPy (https://numpy.org/)
+
+Visualization: http://hades.mech.northwestern.edu/index.php/CoppeliaSim_Introduction
+
 ## Example case 1 
 (click to open YouTube video)
 
